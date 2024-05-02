@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "queuings",
+  "info": {
+    "singularName": "queuing",
+    "pluralName": "queuings",
+    "displayName": "Queuing"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cashier_1": {
+      "type": "integer",
+      "default": 0
+    },
+    "cashier_2": {
+      "type": "integer",
+      "default": 0
+    },
+    "cashier_3": {
+      "type": "integer",
+      "default": 0
+    },
+    "cashier_4": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

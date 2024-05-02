@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "now_servings",
+  "info": {
+    "singularName": "now-serving",
+    "pluralName": "now-servings",
+    "displayName": "NowServing"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "now_serving": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
